@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css">
+	<style>
+
+
+
+		#fadein{
+			color:orange;
+		}
+		
+		header{
+			overflow:hidden;		
+			width: 100%;
+		}
+
+		header img{
+			transition: all 0.3s ease-in-out;
+			float:left;
+			width: 200px;
+		}
+
+		header.stuck img{
+			width: 100px;
+		}
+
+		header nav{
+			float:right;
+		}
+
+		header nav li{
+			display:inline-block;
+		}
+
+
+		.stuck {		
+		  position:fixed;
+		  border-bottom: 1px solid #000;
+		  left: 0;
+		  top: 0;
+		  z-index: 999999;
+		  background-color: #FFF;
+
+		}
+
+		.sticky-wrapper.stuck+#container{
+			margin-top:167px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+<!--header>nav>ul>li*3>a{Link $}	-->
+<header>
+	<img src="logo.png" alt="Logo">
+	<nav>
+		<ul>
+			<li><a href="">Link 1</a></li>
+			<li><a href="">Link 2</a></li>
+			<li><a href="">Link 3</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!--#container>(div.section>h1{Section $}+p>lorem50)*5-->
+<div id="container">
+	<div class="section">
+		<h1>Section 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolorem hic qui eos voluptate veniam aspernatur consequuntur mollitia aliquid ipsa, animi, minus suscipit odit alias deserunt unde molestias commodi corporis voluptates reprehenderit sequi assumenda rem, minima repellendus provident. Cumque laborum voluptatibus enim molestias placeat. Obcaecati, officia, pariatur. Accusantium natus, aliquid.</p>
+
+		<p>Blanditiis natus, inventore perspiciatis magnam possimus similique dolorum. Autem eveniet ipsum nisi facilis numquam assumenda, quasi aperiam voluptate deserunt nemo tempore excepturi, sapiente nostrum voluptatum nam dicta veritatis quo ab, incidunt magnam repudiandae quibusdam nobis deleniti cum. Maxime provident delectus ea, corrupti quod cupiditate error nostrum, amet facere optio porro.</p>
+		<p>Odio consequuntur, iure praesentium in perferendis commodi alias quaerat quibusdam reprehenderit aliquam libero, voluptate, culpa unde vitae aliquid asperiores provident quae nisi corrupti impedit placeat inventore consectetur est rem nostrum! Assumenda debitis velit itaque, dolor quae inventore facere nisi accusantium totam, eaque alias quas quia accusamus, hic, quis provident! Culpa.</p>
+	</div>
+	<div class="section">
+		<h1 id="dapoint">Section 2</h1>
+		<p id="fadein">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo recusandae, tempora nobis nulla sit quis voluptatibus voluptates, tenetur consequuntur necessitatibus. At repudiandae ex minima possimus aliquid harum, voluptatum natus laborum laboriosam sequi eum consequatur delectus repellendus, voluptas modi aut maxime nemo quaerat nobis ipsum quasi alias ratione architecto? Temporibus, distinctio?</p>
+		<p>Ut distinctio exercitationem facilis mollitia dolore molestias eum explicabo omnis consequatur ipsa reprehenderit libero a cum quis nam aut iste, voluptate, ullam sunt deleniti ad quos, optio odio. Aspernatur, esse iste quaerat cum eum ipsum. Voluptate molestiae nesciunt alias corrupti quod autem ipsam repudiandae, eaque, possimus, vero earum quae doloremque!</p>
+		<p>Necessitatibus eaque vel maxime provident odio repellendus, similique aspernatur eveniet reiciendis illo exercitationem nisi laborum modi rerum ducimus debitis libero deleniti culpa aliquid fugit eligendi. Aut voluptatum sit illo fuga reiciendis repellat, unde veritatis dolorum laborum sunt, facilis excepturi quas, officiis expedita ipsam odit porro tempora est alias ullam. Distinctio.</p>
+	</div>
+	<div class="section">
+		<h1>Section 3</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat incidunt quis, beatae earum molestias accusamus possimus minima, sapiente tenetur, recusandae quae! Reprehenderit a ab praesentium consequuntur, adipisci voluptatum delectus minima, quisquam aliquid ratione iusto, dicta natus. Tempora iure commodi quas modi laudantium, molestias neque, sit dolorum numquam quidem ad expedita!</p>
+		<p>Minima magnam doloribus, iusto ducimus aut quisquam ea natus accusamus animi, numquam delectus quos vitae officiis mollitia voluptatum cum eum voluptas officia, aliquam vero est molestias quibusdam voluptatibus illum. Optio aut iusto explicabo non, repudiandae veritatis culpa amet! Ab itaque amet, aspernatur sed quae in animi. Quo alias nam ullam!</p>
+		<p>Sequi magni animi, illum iure vitae dolor, doloribus, laudantium accusamus soluta magnam veniam voluptatem perferendis omnis eveniet accusantium reprehenderit praesentium reiciendis temporibus. Autem reprehenderit, molestias. Odio iusto, voluptates blanditiis quisquam sunt fugit porro eos, expedita vero quasi corporis doloremque quibusdam excepturi temporibus quidem rem! Distinctio nulla dolor temporibus velit enim.</p>
+	</div>
+	<div class="section">
+		<h1>Section 4</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nisi quibusdam quo vitae, quia nesciunt amet, asperiores natus nostrum adipisci voluptatibus. Expedita dolorum ullam ab sint illo aliquam obcaecati quis aspernatur enim atque architecto nam commodi reprehenderit nisi earum blanditiis, distinctio natus asperiores eaque, vero tempora ut numquam autem, quae.</p>
+		<p>Excepturi sit sed totam laboriosam, animi voluptatibus fugiat repellendus placeat consequatur qui nulla repudiandae, repellat aperiam, dolorum unde ipsa odit possimus atque. Pariatur nisi molestias et asperiores aspernatur nostrum praesentium qui eaque corporis soluta a molestiae, perspiciatis, odit libero repellat illo ex sapiente aliquid consequuntur nam, tempora est! Nostrum, ipsa!</p>
+		<p>Labore quam obcaecati tempora laborum voluptatum atque eum deleniti magni. Vitae veritatis, assumenda inventore sunt, omnis nemo rerum optio saepe at tempora cumque fugiat! Cum aperiam modi quaerat ad optio cupiditate voluptate, quidem omnis quos, minus, tempora vel earum quis eius! Qui recusandae veritatis quibusdam voluptatum nihil, nemo dolorem totam.</p>
+	</div>
+	<div class="section">
+		<h1>Section 5</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sint, obcaecati non autem deleniti pariatur cum dolores temporibus optio. Rerum voluptates quia libero reiciendis minus hic consectetur voluptas autem molestiae corporis, pariatur numquam? Eligendi beatae accusamus ratione aliquid, ea ipsum provident, alias distinctio explicabo eius cum iusto eveniet amet adipisci.</p>
+		<p>Fuga ab autem dolorem modi qui ea possimus non veniam enim, mollitia eaque cum facere debitis soluta natus nesciunt perspiciatis, nobis accusantium tenetur ut molestiae? Nulla, molestias minus. Numquam fuga, qui laborum labore optio deleniti? Placeat vero eligendi itaque, cum consectetur sunt modi et quam tempore voluptates commodi, labore impedit.</p>
+		<p>Commodi ipsa amet eos hic sit cum eligendi, consequuntur porro dolore odio voluptatibus reiciendis illo iste suscipit. Modi impedit quis perspiciatis hic neque quaerat perferendis cum illum. Unde saepe harum aperiam accusamus voluptas debitis, odio earum fugiat nisi, rem voluptatibus assumenda at animi a laboriosam, adipisci. Quas ducimus ullam velit.</p>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/shortcuts/sticky.js
+"></script>
+<script>
+	$(document).ready(function(){
+
+		$("#dapoint").waypoint(function(){
+			$("#fadein").addClass('animated zoomIn');
+		},{
+			offset:'200'
+		});
+
+		var sticky = new Waypoint.Sticky({
+  			element: $('header')[0]
+		})
+
+		$('h1').waypoint(function(){
+			$(this.element).css('color', 'orange');
+			$(this.element).addClass('animated shake');
+
+		},{
+			offset: '150'		
+		});
+
+	});
+</script>
+
+</body>
+</html>
