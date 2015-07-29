@@ -5,6 +5,7 @@
 ###Class Goal: Front End Web Development
 
 Topics Covered:
+
 1. Sublime Text Editor
 2. Emmet
 3. Parallax scroll
