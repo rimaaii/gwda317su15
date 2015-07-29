@@ -9,8 +9,8 @@ Topics Covered:
 2. Emmet
 3. Parallax scroll
 4. LESS
-4. Animate.css
-5. Waypoints
-6. MixItUp
+5. Animate.css
+6. Waypoints
+7. MixItUp
 
 
