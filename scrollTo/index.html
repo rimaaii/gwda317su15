@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
+	<style type="text/css">
+	header{
+		background-color: #000;
+		color: #FFF;
+		overflow: hidden;
+		position: fixed;
+		top:0;
+		width: 100%;
+	}
+
+	header nav{
+		float: right;
+	}
+
+	header ul li{
+		display: inline-block;
+		padding: 20px;
+		list-style: none;
+	}
+
+	header ul li a{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	section{
+		height: 500px;
+	}
+
+	section:nth-child(1){
+		background-color:#CC5803;
+	}
+	section:nth-child(2){
+		background-color:#E2711D;
+	}
+	section:nth-child(3){
+		background-color:#FF9505;
+	}		
+	section:nth-child(4){
+		background-color:#FFB627;
+	}
+	section:nth-child(5){
+		background-color:#FFC971;
+	}
+
+	</style>
+</head>
+<body>
+	<header>
+	<nav>
+		<ul>
+			<li><a href="#a">A</a> </li>
+			<li><a href="#b">B</a> </li>
+			<li><a href="#c">C</a> </li>
+			<li><a href="#d">D</a> </li>	
+			<li><a href="#e">E</a> </li>
+		</ul>	
+	</nav>
+	</header>
+
+<section id="a">
+
+</section>
+
+<section id="b">
+
+</section>
+
+<section id="c">
+
+</section>
+
+<section id="d">
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$.scrollTo('#b', 150,800);
+
+});
+
+
+
+
+// You can avoid the document.ready if you put the script at the bottom of the page
+$(document).ready(function() {
+  // Bind to the click of all links with a #hash in the href
+  $('a[href^="#"]').click(function(e) {
+    // Prevent the jump and the #hash from appearing on the address bar
+    e.preventDefault();
+    // Scroll the window, stop any previous animation, stop on user manual scroll
+    // Check https://github.com/flesler/jquery.scrollTo for more customizability
+    console.log(this.hash);
+    $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true});
+  });
+});
+
+</script>
+</body>
+</html>
