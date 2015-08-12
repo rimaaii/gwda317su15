@@ -13,5 +13,7 @@ Topics Covered:
 5. Animate.css
 6. Waypoints
 7. MixItUp
+8. Masonry 
+9. scrollTo
 
 
