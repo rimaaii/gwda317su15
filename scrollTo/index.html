@@ -109,7 +109,7 @@ $(document).ready(function() {
     // Scroll the window, stop any previous animation, stop on user manual scroll
     // Check https://github.com/flesler/jquery.scrollTo for more customizability
     console.log(this.hash);
-    $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true,easing:'easeInOutElastic'});
+    $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true,easing:'easeInBack'});
   });
 });
 
