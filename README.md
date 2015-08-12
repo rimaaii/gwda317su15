@@ -4,6 +4,8 @@
 
 ###Class Goal: Front End Web Development
 
+http://miuweb.me/gwda317su15
+
 Topics Covered:
 
 1. Sublime Text Editor
